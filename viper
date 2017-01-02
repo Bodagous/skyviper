@@ -1,40 +1,38 @@
+NOTES:
+SKYVIPER DRONE V2400 HD STREAMING DRONE BY SKYROCKET TOYS
 
-DEVICE FCC ID = 
+THIS DRONE WAS PURCHASED FROM A POPULAR DEPT STORE, AND LATER WAS RETURNED DUE TO IT BEING UNUASABLE.
+CONTROLLER WOULD CONNECT TO DRONE AFTER 10-45 SECONDS HOWEVER ONCE DRONE WOULD TRAVEL OUTSIDE OF A 5FT
+RADIUS OF THE CONTROLLER IT WOULD DISCONECT AND DRONE WOULD FALL FROM SKY, CONTROLLER WOULD IMMEDIATLY RECONNECT ONCE 
+WITHIN 5 FT OF DRONE AGAIN, ALSO ANY OBSTACLES INBETWEEN CONTROLLER AND DRONE WOULD RESULT IN DRONE FALLING FROM SKY.
 
-CONTROLLER FCC ID = O5301599TX24G
+DEVICE FCC ID = O5301599RX24G (use http://fcc.io)
 
+DRONE BODY CONATINS 2 BOARDS
 
+BOARD 1 HAS A STM32F103C8 http://www.st.com/content/ccc/resource/technical/document/datasheet/33/d4/6f/1d/df/0b/4c/6d/CD00161566.pdf/files/CD00161566.pdf/jcr:content/translations/en.CD00161566.pdf
+WITH A BK2425 http://www.wendangdaquan.com/Wdshow.asp?id=c0cc8e2ee45c3b3566ec8b02 (antenna is built into board)
+SMALL H BRIDGE FOR EACH MOTOR
+I/O PADS BROUGHT OUT LABALED SERIAL AND SWIM (no output on SERIAL pads)
 
+BOARDS ARE LINKED BY 4 WIRES
 
-
-
-
-
-
-+++++
-
-advantage of the inherent sparsity of the Direct Sequence
-Spread Spectrum (DSSS) modulation used by 802.11b.
-With our design, clients with low demand can operate
-their radios at a reduced clock rate while continuing to
-communicate with commercial WiFi devices
-
-+++++
-
-called SloMo, in the Sora software ra-
-dio platform.  We show that SloMo seamlessly com-
-municates with multiple vendors’ commercial chipsets
-using standard 802.11b frames
+BOARD 2 HAS SD CARD PORT, CAMERA CIRCUITRY, AND A SHEILDED AREA I ASSUME IS A 2.4GHZ WIFI CHIP FOR THE VIDEO STREAMING.
+BOARD ALSO HAS ANTENNA PORT FOR HOTSWAPING ANTENNA.  **CAN UPGRADE ANTENNA**
 
 
-//SOURCE+++
-//
-//SloMo: Downclocking WiFi Communication
-//Feng Lu, Geoffrey M. Voelker, and Alex C. Snoeren
-//Department of Computer Science and Engineering
-//University of California, San Diego
-//
-//
-//++++++++
+
+CONTROLLER FCC ID = O5301599TX24G (use http://fcc.io)
+
+BOARD HAS A STM8 www.st.com/resource/en/brochure/brstm8.pdf
+
+ALSO HAS A BK2425 http://www.wendangdaquan.com/Wdshow.asp?id=c0cc8e2ee45c3b3566ec8b02 (antenna is build into board)
+
+ALSO HAS SEPERATE I/O PADS LABALED SERIAL AND SWIM  (output on SERIAL pads present. see serial_outout_skyviper_controller)
+
+
+
+
+
 
 
